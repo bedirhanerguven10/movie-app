@@ -62,7 +62,7 @@ const Main = () => {
       </form>
       <div className="d-flex justify-content-center flex-wrap">
         {loading ? (
-          <div className="spinner-border text-primary m-5" role="status">
+          <div className="text-primary m-5" role="status">
             <span className="sr-only"><Hearts color="#0f6c8b" height={80} width={80} /></span>
           </div>
         ) : (
